@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { ContextTareas } from "../context/ContextTareas";
 
-function TaskForm() {
+export function TaskForm() {
   const [titulo, setTitulo] = useState("");
   const [desc, setDesc] = useState("");
 
@@ -37,4 +37,4 @@ function TaskForm() {
   );
 }
 
-export default TaskForm;
+ 
